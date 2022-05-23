@@ -1,5 +1,5 @@
 {
-    "name": "simplesoftwareio/simple-sqs-extended-client",
+    "name": "senkevich33n/simple-sqs-extended-client",
     "description": "Simple SQS Extended Client is a SQS driver for Laravel that supports extended payloads beyond 256kb.",
     "keywords": [
         "laravel",
@@ -8,7 +8,7 @@
         "extended",
         "driver"
     ],
-    "homepage": "https://github.com/SimpleSoftwareIO/simple-sqs-extended-client",
+    "homepage": "https://github.com/senkevich33n/simple-sqs-extended-client",
     "license": "MIT",
     "authors": [
         {
