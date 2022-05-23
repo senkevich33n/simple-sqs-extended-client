@@ -70,7 +70,7 @@ class SqsDiskQueue extends SqsQueue
         $diskOptions,
         $prefix = '',
         $suffix = '',
-        $dispatchAfterCommit = false,
+        $dispatchAfterCommit = false
     ) {
         $this->sqs = $sqs;
         $this->default = $default;
