@@ -30,7 +30,7 @@ class SqsDiskConnector extends SqsConnector implements ConnectorInterface
             $config['disk_options'],
             $config['prefix'] ?? '',
             $config['suffix'] ?? '',
-            $config['after_commit'] ?? null,
+            $config['after_commit'] ?? null
         );
     }
 }

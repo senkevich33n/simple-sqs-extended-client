@@ -13,7 +13,5 @@ class SqsDiskServiceProvider extends ServiceProvider
     {
         $manager = $this->app->make('queue');
         $manager->addConnector('sqs-disk', fn () => new SqsDiskConnector());
-
-        $this->app->extend('command.vapor.work', fn () => new VaporWorkCommand($this->app['queue.vaporWorker']));
     }
 }
